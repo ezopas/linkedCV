@@ -1,3 +1,6 @@
 {
-  "mongoURI": "mongodb+srv://evaldas:AAAaaa123.@linkedcv-okm79.mongodb.net/test?retryWrites=true&w=majority"
+  "mongoURI": "mongodb+srv://evaldas:AAAaaa123.@linkedcv-okm79.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "manoPaslaptis",
+  "githubClientId": "062577133e76703c128e",
+  "githubSecret": "10bfc2db84fb63739eef4bf6a8ee9afa97a87567"
 }
