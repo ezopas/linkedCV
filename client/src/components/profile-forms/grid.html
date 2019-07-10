@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Grid</title>
+</head>
+<style>
+    .wrapper{
+
+        /*gridas*/
+        display: grid;
+        grid-template-columns: 70% 30%;
+        /*grid-template-columns: 40% 30% 10%;*/
+        /*paddingas*/
+        grid-column-gap: 1em;
+        grid-row-gap: 1em;
+        grid-gap: 1em;
+    }
+    .wrapper > div {
+        background: #eee;
+        padding: 1em;
+    }
+    .wrapper > div:nth-child(odd){
+        background: #ddd;
+    }
+</style>
+<body>
+    <div class="wrapper">
+        <div>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec neque viverra, lobortis nulla non, sollicitudin nunc. Nam mattis nulla nec quam elementum, sed mollis felis luctus. Aenean faucibus urna vitae eros dignissim gravida. Integer maximus lacinia ex, vitae semper neque vulputate id. Aliquam erat volutpat. Sed viverra ante a faucibus fermentum. Fusce imperdiet nisl felis, eu gravida odio mollis id. Pellentesque in venenatis erat. Etiam vitae odio sodales nulla rutrum luctus. Ut imperdiet turpis sodales neque feugiat, quis eleifend quam convallis. Mauris a felis elementum, congue orci at, elementum ex. Praesent volutpat, urna ac fringilla fermentum, felis urna fringilla nulla, quis lobortis est tellus et sem.
+        </div>
+        <div>
+            Etiam auctor neque non risus placerat, ac pellentesque dolor eleifend. Nulla vitae aliquet elit. In pharetra erat vitae placerat consequat. Maecenas a mattis mauris, eu efficitur dolor.
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec neque viverra, lobortis nulla non, sollicitudin nunc. Nam mattis nulla nec quam elementum, sed mollis felis luctus. Aenean faucibus urna vitae eros dignissim gravida. Integer maximus lacinia ex, vitae semper neque vulputate id. Aliquam erat volutpat. Sed viverra ante a faucibus fermentum. Fusce imperdiet nisl felis, eu gravida odio mollis id. Pellentesque in venenatis erat. Etiam vitae odio sodales nulla rutrum luctus. Ut imperdiet turpis sodales neque feugiat, quis eleifend quam convallis. Mauris a felis elementum, congue orci at, elementum ex. Praesent volutpat, urna ac fringilla fermentum, felis urna fringilla nulla, quis lobortis est tellus et sem.
+        </div>
+        <div>
+            Etiam auctor neque non risus placerat, ac pellentesque dolor eleifend. Nulla vitae aliquet elit. In pharetra erat vitae placerat consequat. Maecenas a mattis mauris, eu efficitur dolor.
+        </div>
+        <div>
+            Etiam auctor neque non risus placerat, ac pellentesque dolor eleifend. Nulla vitae aliquet elit. In pharetra erat vitae placerat consequat. Maecenas a mattis mauris, eu efficitur dolor.
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<style>
+    .wrapper{
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-auto-rows: minmax(100px, auto);
+        grid-gap: 1em;
+        /*justify-items: start;*/
+        /*justify-items: center;*/
+        justify-items: stretch;
+        /*align-items: start/center/end/strech;*/
+    }
+    /*veliau*/
+    .b1{
+       /*align-self: start; */
+        grid-column: 1/3;
+        grid-row: 1/3;
+    }
+    .b2{
+        /*align-self: end;*/
+        grid-column: 3;
+        grid-row: 1/3;
+    }
+    .b3{
+        /*justify-self: end;*/
+        grid-column: 2/4;
+        grid-row: 3;
+    }
+    .b4{
+        grid-column: 1;
+        grid-row: 2/4;
+    }
+
+    .wrapper > div {
+        background: #eee;
+        padding: 1em;
+    }
+    .wrapper > div:nth-child(odd){
+        background: #ddd;
+    }
+</style>
+<div class="wrapper">
+    <div class="box b1">
+        Lorem ipsumdolor sit.
+    </div>
+    <div class="box b2">
+        Lorem ipsumdolor sit.
+    </div>
+    <div class="box b3">
+        Lorem ipsumdolor sit.
+    </div>
+    <div class="box b4">
+        Lorem ipsumdolor sit.
+    </div>
+</div>
+</body>
+</html>
