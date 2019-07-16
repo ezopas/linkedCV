@@ -1,4 +1,4 @@
-# linkedCV
+# LinkedCV
 
 **Socialinis tinklas specialistams.**
 
